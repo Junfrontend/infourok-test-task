@@ -1,0 +1,14 @@
+* {
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+// В целом данный миксин не нужен для одной карточки, но если карточек несколько, то он уже будет полезен
+@mixin main-content-header($font-size) {
+    font-size: $font-size;
+    color: #ffffff;
+    font-weight: 700;
+  }
